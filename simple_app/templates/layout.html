@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{% block title %}The Basics{% endblock %}</title>
+        <link rel="stylesheet" href="/static/styles.css">
+
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+        <p>Brought to you by the fine folks at Peterson Corp.</p>
+        {% block scripts %}{% endblock %}
+    </body>
+</html>
